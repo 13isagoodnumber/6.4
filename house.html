@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Text Art</title>
+</head>
+<body style="background-color: #f0f0f0; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0;">
+
+    <svg width="900" height="780" xmlns="http://www.w3.org/2000/svg">
+        <!-- Text Path -->
+        <path id="textPath" d="M10 80 Q 52.5 10, 95 80 T 180 80" fill="transparent"/>
+
+        <!-- Text -->
+        <text font-family="Arial, sans-serif" font-size="24" fill="#333">
+            <textPath href="#textPath">Imagination is more important than knowledge.</textPath>
+        </text>
+    </svg>
+
+</body>
+</html>
